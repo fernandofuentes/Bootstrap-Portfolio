@@ -1,22 +1,10 @@
 /* CSS */
-
-.container {
-  background-color: #ededed;
+body {
+  background-color: #dddddd;
 }
 
-p {
-  color: white;
-  text-align: center;
-}
-
-.col-1 {
-  background-color: green;
-}
-.col-2 {
-  background-color: red;
-}
-.col-3 {
-  background-color: blue;
+header {
+  height: 100px;
 }
 
 
@@ -31,17 +19,14 @@ p {
 
 
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }

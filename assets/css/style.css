@@ -4,6 +4,60 @@ body {
 }
 
 header {
+  background-color: blue;
+}
+.row {
+  background-color: green;
+}
+
+.name {
+  background-color: purple;
+  height: 100px;
+}
+
+nav {
+  background-color: yellow;
+  height: 100px;
+}
+
+.content-wrapper {
+  background-color: pink;
+}
+
+.content {
+  background-color: orange;
+}
+
+section {
+  height: 300px;
+  background-color: teal;
+}
+
+aside {
+  height: 300px;
+  background-color: grey;
+}
+
+footer {
+  background-color: #777777;
+}
+
+.footer {
+  height: 100px;
+}
+
+.footercol1 {
+  background-color: red;
+  height: 100px;
+}
+
+.footercol2 {
+  background-color: blue;
+  height: 100px;
+}
+
+.footercol3 {
+  background-color: green;
   height: 100px;
 }
 

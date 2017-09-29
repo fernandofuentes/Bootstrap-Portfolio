@@ -1,2 +1,2 @@
-# Bootstrap-Portfolio
-Week 2 Homework
+# Basic-Portfolio
+Week 1 Homework

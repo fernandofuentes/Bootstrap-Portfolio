@@ -1,6 +1,5 @@
 /* Global Styles */
 
-
 h1, h2, h3, h4, h5, h6 {
   color: #4aaaa5;
   font-family: 'Georgia', Times, Times New Roman, serif!important;
@@ -30,30 +29,29 @@ hr {
 /******* HEADER STYLES *******/
 
 header .container-fluid {
-
   border-bottom: 1px solid #cccccc;
   background-color: #ffffff;
 }
 
 .header-container {
-background-color: #ffffff;
-height: 50px;
+  background-color: #ffffff;
+  padding-top: 60px;
 }
 
 .name {
   display: block;
+  height: 60px;
   background-color: #4aaaa5;
   font-size: 40px;
   color: #ffffff;
   text-align: center;
-  line-height: 50px;
+  line-height: 60px;
   margin: 0 auto;
 }
 
 /* NAVIGATION */
 
-nav {
-}
+nav {}
 
 nav ul {
   list-style: none;
@@ -113,13 +111,10 @@ nav.stroke ul li a:hover:after {
   overflow: auto;
 }
 
-
 section {
-  width: 598px;
   padding: 25px;
   background-color: #ffffff;
   border: 1px solid #dddddd;
-  float: left;
 }
 
 section p {
@@ -129,7 +124,7 @@ section p {
 }
 
 .profile-image {
-  height: 250px;
+  height: 300px;
   float: left;
   margin: 0 20px 20px 0;
 }
@@ -199,54 +194,46 @@ footer {
   overflow: auto;
 }
 
-
 footer p {
   text-align: center;
 }
 
-
 /* Custom, iPhone Retina */
-   @media only screen and (max-width : 479px) {
 
+@media only screen and (max-width: 479px) {
+  nav ul {
+    text-align: center;
+  }
+  nav ul li a {
+    font-size: 95%;
+    padding: 15px 5px 15px 5px;
+    margin: 0;
+  }
+  .main-container {
+    margin: 0 20px 0 20px;
+  }
+}
 
-     nav ul {
-       text-align: center;
-     }
+/* Extra Small Devices, Phones */
 
-     nav ul li a {
-       font-size: 95%;
-       padding: 15px 5px 15px 5px;
-       margin: 0;
-     }
+@media only screen and (min-width: 480px) {
+  nav ul {
+    text-align: center;
+  }
+}
 
+/* Small Devices, Tablets */
 
-   }
+@media only screen and (min-width: 768px) {}
 
+/* Small Devices, Tablets */
 
-    /* Extra Small Devices, Phones */
-    @media only screen and (min-width : 480px) {
+@media only screen and (max-width: 991px) {
+  aside {
+    margin: 40px 0 0 0;
+  }
+}
 
-      nav ul {
-        text-align: center;
-      }
+/* Medium Devices, Desktops */
 
-    }
-
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-
-
-    }
-
-    /* Small Devices, Tablets */
-    @media only screen and (max-width : 991px) {
-      aside {
-        margin: 40px 0 0 0;
-      }
-
-    }
-
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
-
-    }
+@media only screen and (min-width: 992px) {}

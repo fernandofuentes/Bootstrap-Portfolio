@@ -4,32 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio | Fernando Fuentes</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!-- HEADER -->
-    <div id="header-wrapper">
-        <header>
-            <div class="name">Fernando Fuentes</div>
-            <nav class="stroke">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li>|</li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li>|</li>
-                    <li><a class="last" href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+  <!-- HEADER -->
+  <header class="container-fluid">
+    <div class="header-container container">
+      <div class="header-row row">
+
+        <!-- NAME / LOGO -->
+        <div class="name col-xs-12 col-sm-12 col-md-6 ">Fernando Fuentes</div>
+        <!-- NAV -->
+        <nav class="nav stroke col-xs-12 col-sm-12 col-md-6 ">
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li>|</li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li>|</li>
+            <li><a class="last" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+
+      </div>
     </div>
+  </header>
+
+
+
+
     <!-- MAIN CONTENT -->
-    <div id="container-wrapper">
-        <!-- CONTAINER -->
-        <div id="container">
-            <!-- MAIN CONTENT -->
-            <section>
+    <div class="main-container-fluid container-fluid">
+      <!-- CONTAINER -->
+      <div class="main-container container">
+        <!-- MAIN CONTENT -->
+        <div class="main-row row">
+            <section class="col-xs-12 col-sm-12 col-md-7">
                 <h1>Portfolio</h1>
                 <hr>
                 <div class="project-wrapper float-left">
@@ -57,23 +72,32 @@
                     <div class="project-name">Project Name</div>
                 </div>
             </section>
+
+
             <!-- SIDEBAR -->
-            <aside class="connect">
-                <h3>Connect with Me</h3>
-                <hr>
-                <p>
-                    <a href="https://github.com/fernandofuentes" target="_blank"><img src="assets/images/github-icon.png"></a>
-                    <a href="https://www.linkedin.com/in/fernandoalexisfuentes/" target="_blank"><img src="assets/images/linkedin-icon.png"></a>
-                    <a href="https://stackoverflow.com/users/8535866/fernando-fuentes" target="_blank">
-                      <img src="assets/images/stackoverflow-icon.png"></a>
-                </p>
+            <aside class="connect col-xs-12 col-sm-12 col-md-4 col-md-offset-1">
+              <h3>Connect with Me</h3>
+              <hr>
+              <p>
+                <a href="https://github.com/fernandofuentes" target="_blank"><img src="assets/images/github-icon.png"></a>
+                <a href="https://www.linkedin.com/in/fernandoalexisfuentes/" target="_blank"><img src="assets/images/linkedin-icon.png"></a>
+                <a href="https://stackoverflow.com/users/8535866/fernando-fuentes" target="_blank">
+                              <img src="assets/images/stackoverflow-icon.png"></a>
+              </p>
             </aside>
+          </div>
         </div>
-    </div>
-    <!-- FOOTER -->
-    <footer>
-        <p>© Copyright 2017 | Fernando Fuentes</p>
-    </footer>
+      </div>
+      <!-- FOOTER -->
+      <footer class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>© Copyright 2017 | Fernando Fuentes</p>
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 
 </html>

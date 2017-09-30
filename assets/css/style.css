@@ -42,7 +42,6 @@ height: 50px;
 
 .name {
   display: block;
-  height: 50px;
   background-color: #4aaaa5;
   font-size: 40px;
   color: #ffffff;
@@ -148,7 +147,7 @@ aside p {
 }
 
 aside img {
-  width: 30%;
+  width: 75px;
 }
 
 aside a img {
@@ -205,55 +204,49 @@ footer p {
   text-align: center;
 }
 
-@media(max-width:767px){
-  .name {
-    margin: 0 auto;
-  }
 
-  nav ul {
-    text-align: center;
-  }
-
-  nav ul li a {
-    font-size: 90%;
-    padding: 15px 5px 15px 5px;
-  }
-
-}
+/* Custom, iPhone Retina */
+   @media only screen and (max-width : 479px) {
 
 
+     nav ul {
+       text-align: center;
+     }
 
-@media(min-width:768px){
-  .name {
-    margin: 0 auto;
-  }
-
-  nav ul {
-    text-align: center;
-  }
-
-}
+     nav ul li a {
+       font-size: 95%;
+       padding: 15px 5px 15px 5px;
+       margin: 0;
+     }
 
 
+   }
 
 
-@media(min-width:992px){
-  .name {
-    margin: 0 auto;
-  }
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
 
-  nav ul {
-    text-align: center;
-  }
-}
+      nav ul {
+        text-align: center;
+      }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
 
 
-@media(min-width:1200px){
-  .name {
-    margin: 0 auto;
-  }
+    }
 
-  nav ul {
-    text-align: center;
-  }
-}
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 991px) {
+      aside {
+        margin: 40px 0 0 0;
+      }
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
